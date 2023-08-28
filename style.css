@@ -1,7 +1,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 body{
-    margin: 3%
+    margin: 3%;
+    font-size: 30px;
      
 }
 footer{
@@ -25,4 +26,17 @@ footer span{
 }
 .card{
     margin-top: 4%;
+}
+#pix{ 
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+
+}
+@media only screen and (max-width:600px) {
+    footer{
+        display: block;
+        
+    }
+    
 }
